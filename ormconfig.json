@@ -1,0 +1,7 @@
+{
+  "type": "sqlite",
+  "database": "nestdb.sqlite",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["src/**/**.entity{.ts,.js}"]
+}
