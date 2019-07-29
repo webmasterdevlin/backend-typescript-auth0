@@ -9,7 +9,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
     TodoModule,
     TypeOrmModule.forRoot({
       type: 'sqlite',
-      database: 'src/nestdb.sqlite',
+      database: 'nestdb.sqlite',
       synchronize: true,
       logging: false,
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
