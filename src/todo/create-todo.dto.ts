@@ -4,5 +4,5 @@ export class CreateTodoDto {
   @IsNotEmpty()
   readonly title: string;
   @IsNotEmpty()
-  readonly isDone: string;
+  readonly isDone: boolean;
 }

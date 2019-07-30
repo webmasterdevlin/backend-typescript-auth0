@@ -6,6 +6,6 @@ export class TodoEntity {
   id: string;
   @Column({ length: 186, nullable: false })
   title: string;
-  @Column({ nullable: false })
+  @Column()
   isDone: boolean;
 }
