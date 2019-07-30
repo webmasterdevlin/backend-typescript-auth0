@@ -20,7 +20,6 @@ export class TodosController {
   constructor(private readonly todoService: TodoService) {}
   @Get()
   async getTodos(): Promise<TodoEntity[]> {
-    console.log('get()');
     return await this.todoService.selectAllFromDb();
   }
 
