@@ -1,3 +1,32 @@
+## Web API of the Full-Stack TypeScript demo with Authentication and Authorization
+
+
+## How to run
+
+```bash
+# clone
+$ git clone https://github.com/webmasterdevlin/backend-typescript-auth0.git
+
+$ cd backend-typescript-auth0
+
+# open using vs code
+$ code .
+
+# watch mode
+$ npm run start:dev
+```
+
+## Data base
+[SQLite]('https://www.sqlite.org/index.html') with the help of [TypeORM]('https://typeorm.io/#/')
+
+## Authorization
+[Auth0]('https://auth0.com/')
+
+## Deployment
+[Zeit]('https://trilon.io/blog/deploying-nestjs-to-zeit-now')
+
+---
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
